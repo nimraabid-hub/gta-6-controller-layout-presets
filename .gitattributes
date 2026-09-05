@@ -1,0 +1,14 @@
+# Project-specific overrides
+# Default behavior
+# Generated on 2026-11-19
+*.json linguist-detectable=false
+*.jpeg binary
+
+public/*.html linguist-vendored
+src/*.ts linguist-detectable
+src/**/*.tsx linguist-detectable
+* text=auto eol=lf
+
+*.html linguist-vendored
+go.sum linguist-generated
+*.woff2 binary
