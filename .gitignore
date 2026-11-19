@@ -1,0 +1,7 @@
+*.tgz
+*.log
+build/
+node_modules/
+.DS_Store
+.pnpm-store/
+.next/
